@@ -1,0 +1,84 @@
+.wrapper-1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  gap: 0; }
+
+.illustration {
+  background: url("../assets/illustrations/1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 20px;
+  text-align: center; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+img {
+  vertical-align: middle;
+  border-style: none; }
+
+.left-img .right-content {
+  margin: 0 auto;
+  max-width: 400px; }
+  .left-img .right-content .selected .little {
+    font-size: 14px;
+    color: #2d2e2c;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 10px; }
+
+.big {
+  font-size: 18px;
+  color: #2d2e2c;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 18px;
+  font-weight: bold;
+  margin-bottom: 7px; }
+
+.little {
+  font-size: 14px;
+  color: #2d2e2c;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 14px;
+  margin-bottom: 10px; }
+
+.landing-content {
+  text-align: center; }
+
+.selected {
+  text-align: right; }
+
+form .selected:first-child .little {
+  padding-top: 100px; }
+
+.logo {
+  margin: 0 auto;
+  max-width: 400px;
+  padding-top: 40px; }
+
+body {
+  font-family: 'PT Sans', sans-serif; }
+
+.left-img .right-content .selected {
+  margin-bottom: 23px; }
+
+.label {
+  letter-spacing: 0;
+  line-height: 14px; }
+
+.form-control {
+  height: auto;
+  display: inline-block;
+  width: auto;
+  align-items: horizontal;
+  display: inline; }
